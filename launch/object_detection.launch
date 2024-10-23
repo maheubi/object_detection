@@ -1,0 +1,13 @@
+<launch>
+
+	 <!-- Object Detection node-->
+	<node pkg="object_detection" type="Object_detection_hough.py" name="object_detection" output="screen"> </node>
+
+	<!--<node pkg="object_detection" type="velocity_control.py" name="listener" output="screen"> </node>-->
+	<node pkg="object_detection" type="rviz_markers.py" name="cyrcles" output="screen"> </node>
+	
+
+	<node pkg="object_detection" type="listener.py" name="listener" output="screen"> </node>
+
+
+</launch>

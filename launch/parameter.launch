@@ -1,0 +1,7 @@
+<launch>
+
+	 <!-- Object Detection node-->
+	<node pkg="object_detection" type="velocity_control.py" name="listener" output="screen"> </node>
+	
+	
+</launch>

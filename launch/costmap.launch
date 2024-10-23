@@ -1,0 +1,8 @@
+<launch>
+
+	 <!-- Object Detection node-->
+	<node pkg="object_detection" type="update_costmap" name="costmap" output="screen"> 
+    </node>
+	
+	
+</launch>
